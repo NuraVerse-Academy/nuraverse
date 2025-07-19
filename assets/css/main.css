@@ -91,7 +91,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 60px;
   margin-right: 8px;
 }
 
@@ -125,6 +125,11 @@ h6 {
   .header .logo {
     order: 1;
   }
+
+.header .logo img {
+  max-height: 40px;
+  margin-right: 8px;
+}
 
   .header .btn-getstarted {
     order: 2;
