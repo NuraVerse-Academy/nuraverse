@@ -123,6 +123,7 @@ h6 {
 
 @media (max-width: 1200px) {
   .header .logo{
+    max-width: 40px;
     order: 1;
   }
   
