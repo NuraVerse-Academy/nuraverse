@@ -1509,13 +1509,13 @@ section,
 
 
 .img-fluid2 {
-  max-width: 100%;
+  max-width: 1220px;
   height: auto;
   display: block;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
 .img-fluid2 {
-     width: 50%;
+  width: 500px;
   }
 }
