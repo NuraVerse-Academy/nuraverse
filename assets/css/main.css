@@ -1504,6 +1504,11 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
+.img-fluid2{
+width:50%;
+  height:70%
+}
+
 .event-text{
   margin:20px;
 }
