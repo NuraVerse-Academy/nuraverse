@@ -1508,14 +1508,19 @@ section,
 }
 
 
-.img-fluid2 {
-  max-width: 1220px;
-  height: auto;
-  display: block;
+.img-fluid2 { 
+  position: relative;
+  width: 100%;
+  /* 16:9 ratio = 9/16 = 56.25% */
+  padding-top: 56.25%;
+  overflow: hidden;
 }
 
-@media (max-width: 768px) {
-.img-fluid2 {
-  width: 500px;
-  }
+.img-fluid2 img { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Or `contain` if you don’t want to crop */
 }
