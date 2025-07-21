@@ -692,7 +692,6 @@ section,
     scroll-margin-top: 66px;
   }
 }
-
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
@@ -1504,11 +1503,19 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-.img-fluid2{
-width:50%;
-  height:70%
-}
-
 .event-text{
   margin:20px;
+}
+
+
+.img-fluid2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 1199px) {
+.img-fluid2 {
+     width: 50%;
+  }
 }
